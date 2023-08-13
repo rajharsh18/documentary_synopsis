@@ -3,3 +3,4 @@ flask_cors
 sentence_transformers
 pinecone-client[grpc]
 csv
+gunicorn
