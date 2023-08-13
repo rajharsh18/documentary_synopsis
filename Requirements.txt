@@ -1,5 +1,5 @@
 flask
-google-cloud-speech
-requests
-pytube
-gensim
+flask_cors
+sentence_transformers
+pinecone-client[grpc]
+csv

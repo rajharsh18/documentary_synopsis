@@ -1,13 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <link rel="stylesheet" src="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <p>Hello</p>
-</body>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>DBI</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="../static/css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="../static/images/fevicon.png" type="image/gif" />
+      <link rel="logo" href="logo.jpg" type="image/jpg"/>
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="../static/css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="../static/css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+   </head>
+   <body>
+
+      <div class="header_section">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="{{ '/' }}">Home</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                     <a class="nav-link" href="{{ '/celebs' }}">Documentaries</a>
+                  </li> -->
+               </ul>
+               <div class="search_icon">
+                  <input type="text" name="search" id="search_text" placeholder="Search..." class="search_bar">
+                  <button type="submit" id="search_button" class="search_button">Submit</button>
+               </div>
+            </div>
+         </nav>
+      </div>
+      
+
+
+      <!-- header section end -->
+      <!-- banner section end -->
+      <div class="banner_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="banner_taital">Chronicles  <br>of Alexandria</div>
+                  <p class="banner_text" style="font-size: 25px;">Documentaries to help you in research and in entertainment </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- banner section end -->
+      <!-- arrival section start -->
+      <!-- TODO -->
+      <div id = 'parent_div' style="height: 500px;">
+         <!-- Elements will be added here -->
+      </div>
+      
+            
+      <!-- arrival section end -->
+      <!-- movies section start -->
+      <div class="movies_section layout_padding" style="padding-top: 0px;">
+         
+            <div class="movies_section_2 layout_padding" style="padding-top: 0px;">
+               <h2 class="letest_text">Latest Documentaries</h2>
+               <div class="seemore_bt"><a href="#">See More</a></div>
+               <div class="movies_main">
+                  <div class="iamge_movies_main">
+                     <div class="iamge_movies">
+                        <div class="iframe_wrapper">
+                           <!-- Replace the <img> with an <iframe> -->
+                           <iframe class="iframe" src="https://www.youtube.com/embed?v=WXuK6gekU1Y&a" frameborder="2px" style="border: default"></iframe>
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">AlphaGo - The Movie</h1>
+                        <p class="there_text">With more board configurations than there are atoms in the universe, the ancient Chinese game of Go has long been considered a grand challenge for artificial intelligence. </p>
+                     </div>                     
+                     <div class="iamge_movies">
+                        <div class="iframe_wrapper">
+                           <!-- Replace the <img> with an <iframe> -->
+                           <iframe class="iframe" src="https://www.youtube.com/embed?v=Z9zT-4mNpaE&ab_channel=FreeDocumentary" frameborder="2px" style="border: default;"></iframe>
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">World's Richest Country under Moscow</h1>
+                        <p class="there_text"> Mystery Places | Free Documentary</p>
+                        <div class="star_icon">
+                        </div>
+                     </div>
+                     <div class="iamge_movies">
+                        <div class="iframe_wrapper">
+                           <!-- Replace the <img> with an <iframe> -->
+                           <iframe class="iframe" src="https://www.youtube.com/embed?v=um2Q9aUecy0&ab_channel=Netflix" frameborder="2px" style="border: default;"></iframe>
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">Our Planet | Jungles </h1>
+                        <p class="there_text">Nature Documentary by Netflix</p>
+                     </div>
+                     <div class="iamge_movies">
+                        <div class="iframe_wrapper">
+                           <!-- Replace the <img> with an <iframe> -->
+                           <iframe class="iframe" src="https://www.youtube.com/embed?v=s2YZN2L700Q&list=PLa2D3wpbrfulAeq8PWV00SVZajUkKPhZe&ab_channel=FullDocumentaries" frameborder="2px" style="border: default;"></iframe>
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">Secret Life of Isaac Newton </h1>
+                        <p class="there_text">Learn about the fascinating life of Sir Isaac Newton</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <br>
+            <div class="movies_section_2 layout_padding" padding-top="50px">
+               <div class="movies_main">
+                  <div class="iamge_movies_main">
+                     <div class="iamge_movies">
+                        <div class="iframe_wrapper">
+                           <!-- Replace the <img> with an <iframe> -->
+                           <iframe class="iframe" src="https://www.youtube.com/embed?v=7CZyDPELXs4&ab_channel=PBSAmerica" frameborder="2px" style="border: default"></iframe>
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">Inside Einstein's Mind</h1>
+                        <p class="there_text">Learn Fascinating things about the best physicist of the 20th century</p>
+                     </div>                     
+                     <div class="iamge_movies">
+                        <div class="iframe_wrapper">
+                           <!-- Replace the <img> with an <iframe> -->
+                           <iframe class="iframe" src="https://www.youtube.com/embed?v=5sNFveHpkwI&ab_channel=DWDocumentary" frameborder="2px" style="border: default;"></iframe>
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">The Akha tribe in Laos</h1>
+                        <p class="there_text">Between tradition and modernity </p>
+                        <div class="star_icon">
+                        </div>
+                     </div>
+                     <div class="iamge_movies">
+                        <div class="iframe_wrapper">
+                           <!-- Replace the <img> with an <iframe> -->
+                           <iframe class="iframe" src="https://www.youtube.com/embed?v=Dy8ogOaKk4Y&ab_channel=DWDocumentary" frameborder="2px" style="border: default;"></iframe>
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">The rise of the mega-corporations</h1>
+                        <p class="there_text">Google, Facebook, Amazon - The rise of the mega-corporations</p>
+                     </div>
+                     <div class="iamge_movies">
+                        <div class="iframe_wrapper">
+                           <!-- Replace the <img> with an <iframe> -->
+                           <iframe class="iframe" src="https://www.youtube.com/embed?v=J8DGjUv-Vjc&ab_channel=TheMinimalists" frameborder="2px" style="border: default;"></iframe>
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">MINIMALISM</h1>
+                        <p class="there_text">Explore how people live with less</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+      <!-- movies section end -->
+      
+
+      <!-- footer  section start -->
+      <div class="footer_section layout_padding">
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="../static/js/jquery.min.js"></script>
+      <script src="../static/js/popper.min.js"></script>
+      <script src="../static/js/bootstrap.bundle.min.js"></script>
+      <script src="../static/js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="../static/js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="../static/js/custom.js"></script>
+      <script src="../static/script.js"></script>
+      <!-- javascript --> 
+      <script src="../static/js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+      <script>
+         $('#datepicker').datepicker({
+             uiLibrary: 'bootstrap4'
+         });
+      </script>
+   </body>
 </html>
